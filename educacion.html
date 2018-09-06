@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Luis Aquino">
+    <meta name="keyword" content="Curriculm vitae, hoja de vida, Resumen curricular">
+    <meta name="description" content="Páginas que describen los datos personales, estudios y experiencia profesional">
+    <title>Hoja de vida - Educaci&oacute;n</title>
+  </head>
+  <body>
+    <header>
+      <!--<img src = "images/logo-leac.svg" width="161px" height="147px" alt="Logo Luis Aquino" title='Logo Luis Aquino'>-->
+      <svg width="161px" height="147px">
+        <image xlink:href = "images/logo-leac.svg" width="161px" height="147px"></image>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+      <h2>Datos Personales</h2>
+        <h3>Nombres: <em>Luis Enrique</em></h2>
+        <h3>Apellidos: <em>Aquino Castillo</em></h3>
+        <h3>Fecha de nacimiento: <em>27/10/1976</em></h3>
+        <h3>Lugar de nacimiento: <em>Huachac - Chupaca - Junín - Perú</em></h3>
+    </header>
+    <nav>
+      <h2>Enlaces del Men&uacute;</h2>
+      <p>
+        <a href="index.html" target="_blank" title="Link Inicio">Inicio</a></li> <b> | </b>
+        <a href="educacion.html#" target="_blank" title="Link Educación">Educación</a></li> <b> | </b>
+        <a href="experiencia.html" target="_blank" title="Link Experiencia profesional">Experiencia</a></li>
+      </p>
+    </nav>
+    <section>
+      <h2>Educación</h2>
+      <table border="2" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institucion</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1988</td>
+            <td>I.E. Politécnico Regional del Centro</td>
+            <td>El Tambo</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>1994</td>
+            <td>Universidad Nacional del Centro del Perú</td>
+            <td>Huancayo</td>
+            <td>No</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>Universidad Continental</td>
+            <td>Huancayo</td>
+            <td>Si</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Agregar estudios</h2>
+        <form autocomplete="on" name="Agregar Estudios">
+          <label for="SeleccionarAnio"><strong>Año: </strong></label>
+          <select name="SeleccionarAnio" id="SeleccionarAnio">
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+          </select>
+          <br/>
+          <label for="Institucion"><strong>Institución: </strong></label>
+          <input type="text" name="Institucion" id="Institucion" placeholder="Colegio / Universidad / Instituto" required>
+          <br/>
+          <label for="Lugar"><strong>Lugar: </strong></label>
+          <br/>
+          <textarea name="Lugar" id="Lugar" rows="2" cols="50" placeholder="Provincia / Distrito"></textarea>
+          <br/>
+          <input type="submit" name="Enviar" title="Enviar" value="Enviar">
+        </form>
+    </section>
+    <footer>
+      <p>
+        <b>Teléfono: (+51) 982607722 </b>
+        <br/>
+        <b>Dirección: Pasaje Seminario N° 125 - El Tambo - Huancayo</b>
+        <br/>
+        <b>Email: laquinoc27@hotmail.com</b>
+        <br/>
+        <a href="mailto:laquinoc27@hotmail.com?subject=feedback">Contacto</a>
+        <b>|</b>
+    		<a href="https://www.facebook.com/luis.e.aquinocastillo" target="_blank">Facebook</a>
+    		<br>
+    	</p>
+    </footer>
+  </body>
+</html>
